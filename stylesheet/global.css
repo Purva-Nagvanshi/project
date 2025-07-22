@@ -1,0 +1,69 @@
+:root {
+
+    --darkHex: #78C841;
+    --primaryHex: #B4E50D;
+    --secodaryHex: #FF9B2F;
+    --backgroundHex: #FB4141;
+
+    --darkRGB: 120, 200, 65;
+    --primaryRGB: 180, 229, 13;
+    --secondaryRGB: 255, 155, 47;
+    --backgroundRGB: 251, 65, 65;
+
+}
+
+body{
+    background-color: rgba(var(--backgroundRGB), .1) !important;
+}
+
+
+/* Background Colors */
+.c-bg-dark {
+    background-color: var(--darkHex) !important;
+}
+
+.c-bg-primary {
+    background-color: var(--primaryHex) !important;
+}
+
+.c-bg-secondary {
+    background-color: var(--secondaryHex) !important;
+}
+
+.c-bg-background {
+    background-color: var(--backgroundHex) !important;
+}
+
+/* Text Colors */
+.c-text-dark {
+    color: var(--darkHex) !important;
+}
+
+.c-text-primary {
+    color: var(--primaryHex) !important;
+}
+
+.c-text-secondary {
+    color: var(--secondaryHex) !important;
+}
+
+.c-text-background {
+    color: var(--backgroundHex) !important;
+}
+
+/* Border Colors */
+.c-border-dark {
+    border-color: var(--darkHex) !important;
+}
+
+.c-border-primary {
+    border-color: var(--primaryHex) !important;
+}
+
+.c-border-secondary {
+    border-color: var(--secondaryHex) !important;
+}
+
+.c-border-background {
+    border-color: var(--backgroundHex) !important;
+}
