@@ -58,3 +58,29 @@
     border-radius: inherit;
     transform: scale(0.9);
 }
+/* hero section */
+.hero{
+    width: 100%;
+    height: 80vh;
+    background-color: var(--bs-light);
+}
+.hero-cta{
+   height: 40px !important;
+   width: 100px !important;
+   background-color: black !important;
+   color: aliceblue !important;
+}
+.hero-cta:focus{
+   height: 40px !important;
+   width: 100px !important;
+   background-color: aliceblue !important;
+   color: black !important;
+   transform: scale(0.9);
+}
+.custom-badge{
+    height: 25px !important;
+    width: 210px !important;
+    padding-top: 6px;
+    box-sizing: border-box;
+}
+
